@@ -1,0 +1,273 @@
+@charset "utf-8";
+.centrato {
+	box-shadow: none;
+	background-color: transparent;
+	align-content: center;
+	text-align: center;
+}
+
+.container-fluid .centrato{
+	box-shadow: none;
+	background-color: transparent;
+	align-content: center;
+
+}
+.container-fluid .centrato .corpo{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin:auto;
+	display:inline-block;
+		
+	}
+	
+	#esterno{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin:0;
+		
+	}
+	
+	.container-fluid .centrato .elenco{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	display: inline-block;
+	width:250px;
+	height:90px;
+	margin:15px;
+	}
+	
+	#contenitore{
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+.sottobarra{
+	background: #5AE817;
+	min-height: 50px;
+	}	
+
+.scritta{width: 100%;max-width: 450px;  display: inline-block; vertical-align: middle;}
+	
+
+.container-fluid .centrato .corpo .imm{
+	margin: 15px ;
+	width: 250px;
+	height:250px;
+	cursor:pointer;
+	}
+	
+.container-fluid .centrato .corpo .tabella{
+	margin:10px;
+	width: 495px;
+	height:250px;
+	text-height:120px;
+}
+	
+.textlinear{
+	
+	margin-top:20px;
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	margin:0;
+	padding: 15px;
+	text-align:center;
+    width: 45%;
+	color: #004592;
+	
+}
+	
+.container-fluid .imm .intr{
+	background-image:url('/images/sls_home/Intrattenimento.jpg');
+	background-color:green;
+	}
+.container-fluid .centrato .corpo .imm .casa{
+	background-image:url('/images/sls_home/casa_benessere.jpg');
+	background-color: #cccccc;
+	}
+
+	
+.container-fluid .imm .intr span{
+	margin:0;
+	padding: 10px;
+    width: 100%;
+    color: #dedede;
+     
+    /*background: #222; /* browser che non supportano rgba */
+    /*background: rgba(0,0,0,0.7);*/
+    left: 0;
+	
+	font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+	
+	
+.centrato h1 {
+	margin-top:20px;
+	font:Helvetica;
+	font-size:35px;
+	font-weight: bold;
+	margin:0;
+	padding: 25px;
+	text-align:center;
+    width: 100%;
+	color: #004592;
+	
+
+}
+
+.container-fluid .centrato .corpo .titolo{
+	
+	
+	
+	width: 100%;
+	}
+   .container-fluid .elenco p{
+	
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	padding: 15px;
+    width: 100%;
+	color: #004592;
+	text-decoration:none;
+	margin: auto ;
+	cursor:pointer;
+	border:solid 2px #FF0004;
+	background-color:#E8FCFF;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	height:100%;
+}
+
+.container-fluid .elenco p:hover{
+	font:Helvetica;
+	font-size:20px;
+	font-weight: bold;
+	padding: 15px;
+    width: 100%;
+	color: #004592;
+	text-decoration:underline;
+	margin: auto ;
+	cursor:pointer;
+	border:solid 3px #FF0004;
+	background-color:#E8FCFF;
+	vertical-align: central;
+	text-overflow: ellipsis;
+	height:100%;
+}
+
+
+.centrato h2{
+	margin-top: 20px;
+	font: Helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	padding: 25px;
+	width: 100%;
+	color: #004592;
+	text-decoration: underline;
+	text-align: center;
+	
+	
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Float the list items side by side */
+ul.tab li {width: 20%;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.ristretto{
+    width: 100%;
+    margin: 5px;
+    padding:5px;
+    font-size: 16px;
+    color: #004592;
+    max-width: 400px;
+    
+    
+}
+
+.sponsor{
+   width: 100%;
+    margin: 5px;
+    padding:5px;
+    font-size: 16px;
+    color: #004592;
+}
+
+.spazio{
+    margin-top: 10px; display: inline-block;width: 100%;
+}
+
+.slide{
+    width: 100%; max-width: 300px; vertical-align: top;
+}
+
+.imgleftside{
+    width: 70%;
+}
+
+.gradiente{
+    padding:10px;
+    background: rgba(0,68,146,1);
+background: -moz-linear-gradient(top, rgba(0,68,146,1) 0%, rgba(135,166,199,1) 6%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 84%, rgba(135,166,199,1) 94%, rgba(0,68,146,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,68,146,1)), color-stop(6%, rgba(135,166,199,1)), color-stop(16%, rgba(255,255,255,1)), color-stop(84%, rgba(255,255,255,1)), color-stop(94%, rgba(135,166,199,1)), color-stop(100%, rgba(0,68,146,1)));
+background: -webkit-linear-gradient(top, rgba(0,68,146,1) 0%, rgba(135,166,199,1) 6%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 84%, rgba(135,166,199,1) 94%, rgba(0,68,146,1) 100%);
+background: -o-linear-gradient(top, rgba(0,68,146,1) 0%, rgba(135,166,199,1) 6%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 84%, rgba(135,166,199,1) 94%, rgba(0,68,146,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,68,146,1) 0%, rgba(135,166,199,1) 6%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 84%, rgba(135,166,199,1) 94%, rgba(0,68,146,1) 100%);
+background: linear-gradient(to bottom, rgba(0,68,146,1) 0%, rgba(135,166,199,1) 6%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 84%, rgba(135,166,199,1) 94%, rgba(0,68,146,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004492', endColorstr='#004492', GradientType=0 );
+}
+
+.verticaldiv{
+ vertical-align: middle;
+    height: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
